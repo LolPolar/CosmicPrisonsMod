@@ -34,3 +34,8 @@ Community forks and local builds are valuable for development and suggestions, b
 
 ## Pull Request Quality
 Keep PRs focused, explain exactly what changed and why, and include enough detail for reviewers to understand client impact and any server dependency. If a change affects protocol or security-sensitive behavior, explain the reasoning clearly and include validation coverage.
+
+## Paper Plugin Support (1.21.11)
+A companion Paper plugin scaffold now lives in `paper-plugin/` and mirrors the mod protocol on `servercompanion:main`.
+
+See `docs/PAPER_PLUGIN_GUIDE.md` for setup, API usage, protocol constants, and integration examples for other server plugins.

@@ -1,0 +1,14 @@
+# Must match an entry in the client's allowedServerIds list.
+server-id: cosmicprisons.com
+
+inventory-overlays:
+  # PDC key that stores the amount as LONG on ItemStack meta.
+  amount-key: cosmic:amount
+  # Companion overlay rescan interval. Keep small so pickup/drop changes appear quickly.
+  scan-interval-ticks: 4
+  # Materials treated as money notes (overlay type 2).
+  money-note-materials:
+    - PAPER
+  # Materials treated as cosmic energy (overlay type 1).
+  energy-materials:
+    - GLOWSTONE_DUST

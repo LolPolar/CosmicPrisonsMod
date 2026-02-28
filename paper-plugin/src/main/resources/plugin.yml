@@ -1,0 +1,13 @@
+name: CosmicCompanionPaper
+main: me.landon.papercompanion.CosmicCompanionPlugin
+version: 1.0.0
+api-version: '1.21'
+authors: [Landon]
+description: Paper bridge for CosmicPrisons Fabric companion mod
+commands:
+  companiondemo:
+    description: Sends demo companion payloads to your mod client.
+    usage: /companiondemo
+  companiontimer:
+    description: Manage companion event timers.
+    usage: /companiontimer <list|add|remove>
